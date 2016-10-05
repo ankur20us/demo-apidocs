@@ -1,0 +1,33 @@
+{
+  "name": "demo-apidocs",
+  "version": "1.0.0",
+  "description": "The demo code to understand the ApiDoc functionality",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankur20us/demo-apidocs.git"
+  },
+  "author": "Ankur Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankur20us/demo-apidocs/issues"
+  },
+  "homepage": "https://github.com/ankur20us/demo-apidocs",
+  "dependencies": {
+    "apidoc": "0.16.1",
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "gulp": "3.9.1",
+    "method-override": "2.3.6"
+  },
+  "apidoc": {
+    "name": "Demo-ApiDoc",
+    "version": "1.0.0",
+    "description": "Demo Api",
+    "title": "Demo ApiDoc",
+    "url": "http://localhost:3555/api"
+  }
+}
